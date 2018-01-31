@@ -3668,7 +3668,7 @@
 			var v = this.vars;
 			var z = '';
 			for(k in v) {
-				if(k != 'flashplayer' && k != 'container' && v[k] != '') {
+				if(k != 'flashplayer' && k != 'container' && (v[k] ==0 || v[k] != '')) {
 					if(z != '') {
 						z += '&';
 					}
